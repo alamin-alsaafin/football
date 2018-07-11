@@ -1,0 +1,39 @@
+.sportsmagazine-topstrip-two{
+    border-color: #ffdc11;
+    background: #ffdc11;
+}
+.sportsmagazine-user-link li i{
+    color: #000000;
+}
+.sportsmagazine-color, .sportsmagazine-colorhover:hover, .navbar-nav > li:hover > a, .navbar-nav > li.active > a, .sportsmagazine-megalist li:hover a, .widget_twitter ul li p a, .widget_trending_news .nav-tabs li.active a, .widget_trending_news .nav-tabs li:hover a, .widget_twitter ul li p a, .widget_awards .slick-arrow:hover i, .sportsmagazine-partner-slider .slick-arrow:hover i, .sportsmagazine-bloglarge ul li:hover .sportsmagazine-readmore-btn, .sportsmagazine-player-thumb-text h3 span, .sportsmagazine-player-list ul li:hover .sportsmagazine-player-list-text h5 a, .sportmagazine-score-counter p span, .sportsmagazine-modern-player figure figcaption h3 > span, .star-rating:before, .star-rating-box:before, .sportsmagazine-shop-grid section > .price-cart{
+    color: #b5d350;
+}
+.sportsmagazine-banner-text h1{
+    color: #ffdc11;
+}
+.sportsmagazine-banner-upcoming-match,
+.sportsmagazine-classic-heading:after{
+    background-color: #ffdc11;
+}
+.sportsmagazine-banner-upcoming-match span{
+    padding: 48px 30px 0px 42px;
+}
+.sportsmagazine-bgcolor, .sportsmagazine-classic-heading:before{
+    background-color: #83a803;
+}
+.sportsmagazine-banner-two .slick-dots li.slick-active button{
+    border-bottom: 2px solid #b5d350;
+    color: #b5d350;
+}
+.sportsmagazine-modal-close:before, .sportsmagazine-fixture-slider-layer ul:before, .sportsmagazine-featured-slider .slick-arrow-left.slick-arrow:hover:before, .widget_trending_news .nav-tabs li.active a:after, .sportsmagazine-modren-team-one:before, .sportsmagazine-modren-team-two:before{
+    border-top-color:#83a803;
+}
+.sportsmagazine-fixture-slider-layer ul li{
+    color: #fff;
+}
+.sportsmagazine-fixture-slider .slick-arrow:hover{
+    background-color: #0c4107;
+}
+.sportsmagazine-fixture-slider .slick-arrow:hover i{
+    color: #fff;
+}
