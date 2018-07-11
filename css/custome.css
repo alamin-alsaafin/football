@@ -37,3 +37,101 @@
 .sportsmagazine-fixture-slider .slick-arrow:hover i{
     color: #fff;
 }
+
+
+/* Word Cup page css code */
+/*------------------------*/
+#internal-page-word-cup .title
+{
+    text-align: center;
+    height: 76px;
+    line-height: 76px;
+    color: #fff;
+    background: #0c4107;
+    margin-top: 5%;
+}
+#internal-page-word-cup .select-level
+{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background: #e9ff9b;
+}
+#internal-page-word-cup .select-level:focus
+{
+    outline: none;
+}
+#internal-page-word-cup td a
+{
+    float: left;
+}
+#internal-page-word-cup .group-name
+{
+    background: #e9ff9b;
+    height: 40px;
+    color: #000;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+.internal-page-word-cup .title
+{
+    text-align: center;
+    height: 76px;
+    line-height: 76px;
+    color: #fff;
+    background: #0c4107;
+    margin-top: 5%;
+}
+.internal-page-word-cup .select-level
+{
+    height: 40px;
+    line-height: 40px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background: #e9ff9b;
+}
+.internal-page-word-cup .no-results
+{
+    height: 167px;
+    line-height: 167px;
+    text-align: center;
+    font-size: 30px;
+}
+.internal-page-word-cup .no-data-available
+{
+    text-align: center !important;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+@media (max-width: 1199px)
+{
+    #internal-page-word-cup .main-table
+    {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 1199px)
+{
+    #internal-page-word-cup img
+    {
+        display: none;
+    }
+    #internal-page-word-cup th
+    {
+        padding: 0;
+    }
+    #internal-page-word-cup .group-name
+    {
+        /*transform: rotate(90deg);*/
+        width: 161%;
+    }
+    #internal-page-word-cup .main-table
+    {
+        padding-right: 10px;
+    }
+}
+/*-----------End-------------*/
