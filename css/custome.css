@@ -8,7 +8,7 @@
     border-radius: 5px !important;
     padding-left: 20px !important;
     color: #000 !important;
-    margin-top: 46% !important;
+    margin-top: 21% !important;
 }
 .reset-pass-btn
 {
@@ -24,6 +24,13 @@
     display: block !important;
     margin-bottom: 7% !important;
 }
+.reset-pass-title
+{
+    color: #000 !important;
+    text-align: center !important;
+    /* display: block; */
+    margin-top: 15% !important;
+}
 @media (max-width: 991px)
 {
     .reset-pass-btn
@@ -32,6 +39,52 @@
     }
 }
 /******************************/
+
+/********* my profile css (drob down)****/
+.profile-li:hover .profile-ul
+{
+    display: block !important;
+}
+.profile-ul 
+{
+    position: absolute !important;
+    background: #ffdc11 !important;
+    z-index: 9999999 !important;
+        display: none !important;
+    width: 13% !important;
+    right: 6% !important;
+    padding-top: 1% !important;
+    /*padding-left: 1% !important;*/
+    padding-bottom: 1%;
+    border:1px #0c4107 solid !important;
+    border-top: none !important;
+}
+.profile-ul li a
+{
+    transition: 0.3s !important;
+    display: block !important;
+    text-align: left !important;
+    width: 100%;
+}
+.profile-ul li:hover 
+{
+    background: #0c4107 !important;
+    color: #fff !important;
+}
+.profile-ul li:hover a ,.profile-ul li:hover i
+{
+    color: #fff !important;
+}
+.profile-ul li
+{
+    float: none !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 2% !important;
+    padding-left: 29px !important;
+}
+/*******************************************/
 .sportsmagazine-topstrip-two{
     border-color: #ffdc11;
     background: #ffdc11;
