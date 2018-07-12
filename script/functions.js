@@ -1,5 +1,8 @@
-jQuery(document).ready(function($) {
 
+
+
+jQuery(document).ready(function($) {
+      
 	'use strict';
     //***************************
     // Sticky Header Function
@@ -12,7 +15,8 @@ jQuery(document).ready(function($) {
 	          jQuery('body').removeClass("sportsmagazine-sticky");
 	      }
 	  });
-
+      
+      
     //***************************
     // BannerOne Functions
     //***************************

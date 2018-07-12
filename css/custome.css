@@ -127,6 +127,17 @@
     }
 }
 /*******************************************/
+
+/* WORLD CUP additional css code for select joker menu */
+.select-joker
+{
+    margin-top: 5%;
+}
+.select-joker:focus
+{
+    outline: none;
+}
+/*******************************************************/
 .sportsmagazine-topstrip-two{
     border-color: #ffdc11;
     background: #ffdc11;
