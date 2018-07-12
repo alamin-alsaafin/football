@@ -1,3 +1,37 @@
+/*forget password page css code*/
+.forget-password-input
+{
+    display: block !important;
+    width: 100% !important;
+    height: 50px !important;
+    box-shadow: 0 0 2px #0c4107 !important;
+    border-radius: 5px !important;
+    padding-left: 20px !important;
+    color: #000 !important;
+    margin-top: 46% !important;
+}
+.reset-pass-btn
+{
+    width: 50% !important;
+    margin: auto !important;
+    border-radius: 5px !important;
+    background: #0c4107 !important;
+    color: #fff !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    margin-top: 11% !important;
+    /* margin-left: 26.5%; */
+    display: block !important;
+    margin-bottom: 7% !important;
+}
+@media (max-width: 991px)
+{
+    .reset-pass-btn
+    {
+        width: 57% !important;
+    }
+}
+/******************************/
 .sportsmagazine-topstrip-two{
     border-color: #ffdc11;
     background: #ffdc11;
