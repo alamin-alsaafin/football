@@ -84,6 +84,48 @@
     margin-bottom: 2% !important;
     padding-left: 29px !important;
 }
+
+@media (max-width: 1199px)
+{
+    .profile-ul
+    {
+        right: 8.5% !important;
+    }
+    .profile-ul li
+    {
+        padding-left: 20px !important;
+    }
+}
+@media (max-width: 991px)
+{
+    .arrowToDown
+{
+        position: absolute !important;
+        right: 11.5% !important;
+        top: 63% !important;
+        font-size: 9px !important;
+}
+.profile-ul
+{
+        width: 24% !important;
+}
+}
+@media (max-width: 767px)
+{
+    .arrowToDown {
+        position: absolute !important;
+        right: 20.5% !important;
+        top: 70% !important;
+        font-size: 9px !important;
+    }
+    .profile-ul {
+        width: 35% !important;
+        right: 19.5% !important;
+    }
+    .profile-ul li {
+        padding-left: 27px !important;
+    }
+}
 /*******************************************/
 .sportsmagazine-topstrip-two{
     border-color: #ffdc11;
