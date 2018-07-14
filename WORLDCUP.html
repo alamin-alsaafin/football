@@ -315,13 +315,13 @@
                                             <input type="number" class="input_right form-control" value="0" />  
                                             <span>VS</span>
                                             <input type="number" class="input_left form-control" value="0" />
-                                            <select class="select-joker">
+                                            <select id="select-joker">
                                               <option value="enter-value" selected>Select Joker</option>
                                               <option value="Gold Joker" id="not-selected">Gold Joker</option>
                                               <option value="Silver Joker">Silver Joker</option>
                                               <option value="Bronze Joker">Bronze Joker</option>
                                             </select>  
-                                            <button type="submit" class="send" id="sendBtn">Send</button>
+                                            <button type="submit" class="send" id="send-ex">Send</button>
                                         </form>
                                     </div>
                                 </div>
@@ -360,7 +360,7 @@
                                               <option value="Silver Joker">Silver Joker</option>
                                               <option value="Bronze Joker">Bronze Joker</option>
                                             </select>  
-                                            <button type="submit" class="send">Send</button>
+                                            <button type="submit" class="send" id="send-ex">Send</button>
                                         </form>
                                     </div>
                                 </div>
@@ -398,7 +398,7 @@
                                               <option value="Silver Joker">Silver Joker</option>
                                               <option value="Bronze Joker">Bronze Joker</option>
                                             </select>  
-                                            <button type="submit" class="send">Send</button>
+                                            <button type="submit" class="send" id="send-ex">Send</button>
                                         </form>
                                     </div>
                                 </div>
@@ -555,6 +555,27 @@
     <script type="text/javascript" src="script/counter.js"></script>
     <script type="text/javascript" src="script/functions.js"></script>
     <script type="text/javascript" src="script/sweetalert2.js.js"></script>
+    <script type="text/javascript">
+        function myFunction() {
+
+            
+            if(document.getElementById("select-joker").selectedIndex=="0")
+            {
+            alert("Please Select Any Joker !");
+            
+            }
+            else
+            {
+               var val= document.getElementById("select-joker").value;
+               alert(val);
+            }
+    
+        }
+        document.getElementById("send-ex").addEventListener("click", function(event){
+            event.preventDefault();
+            myFunction();
+        });
+    </script>
     </body>
     
     </html>    

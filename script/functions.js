@@ -16,7 +16,9 @@ jQuery(document).ready(function($) {
 	      }
 	  });
       
-      
+       if($(".select-joker").attr("selectedIndex") == 0) {
+         alert("You haven't selected anything!");
+   }
     //***************************
     // BannerOne Functions
     //***************************
