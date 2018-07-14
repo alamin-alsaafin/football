@@ -311,7 +311,7 @@
                                             <span class="date">22 /06 /2018</span>
                                             <span class="hour">21:00</span>
                                         </h5>
-                                        <form action="">
+                                        <form action="" id="select-joker-form">
                                             <input type="number" class="input_right form-control" value="0" />  
                                             <span>VS</span>
                                             <input type="number" class="input_left form-control" value="0" />
@@ -562,17 +562,15 @@
             if(document.getElementById("select-joker").selectedIndex=="0")
             {
             alert("Please Select Any Joker !");
-            
+            event.preventDefault();
             }
             else
             {
-               var val= document.getElementById("select-joker").value;
-               alert(val);
+               document.getElementById("select-joker-form").submit();
             }
     
         }
         document.getElementById("send-ex").addEventListener("click", function(event){
-            event.preventDefault();
             myFunction();
         });
     </script>
