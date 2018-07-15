@@ -73,6 +73,123 @@
     background: #0c4107;
     margin-top: 5%;
 }
+#my-profile-sec .my-profile-content
+{
+    background: #f8f8f8;
+    margin-bottom: 7%;
+    padding-bottom: 50px;
+}
+#my-profile-sec .profileIMG
+{
+    margin: 20px;
+}
+#my-profile-sec .profile-name
+{
+    margin-top: 5%;
+    color: #0c4107;
+    font-weight: bold;
+    margin-bottom: 7%;
+}
+#my-profile-sec .membership,#my-profile-sec .User-Rating,#my-profile-sec .Subscriber
+,#my-profile-sec .Last-visit
+{
+    color: #000;
+}
+#my-profile-sec h4 span
+{
+    margin-left: 20px;
+}
+#my-profile-sec h4 span i
+{
+    color: #ffdc11;
+}
+#my-profile-sec .edit-img-icon
+{
+    color: #0c4107;
+    font-size: 25px;
+}
+#my-profile-sec  .league-name
+{
+    font-size: 21px;
+    height: 60px;
+    line-height: 60px;
+    color: #0c4107;
+    font-weight: bold;
+    margin-top: 2%;
+}
+#my-profile-sec  .league-name i
+{
+    font-size: 28px;
+    margin-right: 10px;
+}
+#my-profile-sec  .exp-percent
+{
+    font-size: 23px;
+}
+#my-profile-sec .Precise-expectation
+{
+    font-size: 18px;
+}
+#my-profile-sec .signal-icon
+{
+    position: absolute;
+    top: 2%;
+    right: 60%;
+    font-size: 44px;
+}
+#my-profile-sec .moreBtn
+{
+    font-weight: bold;
+}#my-profile-sec .moreBtn:hover,
+#my-profile-sec .moreBtn:focus
+{
+    text-decoration: underline;
+}
+#my-profile-sec .moreBtn i
+{
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background: #0d4208;
+    font-size: 13px;
+    margin-left: 6px;
+}
+#my-profile-sec .ex-box
+{
+    height: 153px;
+    background: #ffdc11;
+    padding-top: 22px;
+    border-right: #f8f8f8 solid 1px;
+}
+#my-profile-sec .edit-profile,#my-profile-sec .edit-password
+{
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+@media (max-width: 1199px)
+{
+    #my-profile-sec .signal-icon {
+        right: 55%;
+    }
+}
+@media (max-width: 991px)
+{
+    #my-profile-sec .ex-box
+    {
+        border-bottom: #f8f8f8 solid 1px;
+    }
+}
+@media (max-width: 767px)
+{
+    #my-profile-sec .ex-box
+    {
+        border: #f8f8f8 solid 1px;
+    }
+}
 /************************/
 
 /*my profile page css code*/
