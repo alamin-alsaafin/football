@@ -88,6 +88,18 @@
     }
 }
 }
+
+/*new edits done in footer*/
+.header-info li a, .header-info li small
+{
+    color: #fff;
+}
+.sportsmagazine-sticky .sportsmagazine-logo-two, .sportsmagazine-sticky .header-info
+{
+    display: block;
+}
+/**************************/
+
 /*************************/
 
 /*Referral Page*/
