@@ -1,4 +1,15 @@
+// function to hide the top-ad banner when scrolling down
 
+               $(document).on("scroll", function(){
+                if
+                  ($(document).scrollTop() > 170){
+                  $(".top-ad").addClass("top-ad-hidden");
+                }
+                else
+                {
+                  $(".top-ad").removeClass("top-ad-hidden");
+                }
+              });  
 
 
 jQuery(document).ready(function($) {
