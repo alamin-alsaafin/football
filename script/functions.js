@@ -4,10 +4,12 @@
                 if
                   ($(document).scrollTop() > 170){
                   $(".top-ad").addClass("top-ad-hidden");
+                  $(".sportsmagazine-logo-two > img").addClass("logo-hidden");
                 }
                 else
                 {
                   $(".top-ad").removeClass("top-ad-hidden");
+                  $(".sportsmagazine-logo-two > img").removeClass("logo-hidden");
                 }
               });  
 

@@ -3,6 +3,68 @@
 {
     display: none;
 }
+.logo-hidden
+{
+    display: none;
+}
+.side-ad img
+{
+    position: absolute;
+    z-index: 99;
+    top: 122%;
+    width: 8%;
+    height: 89% !important;
+    transition: 0.3s;
+}
+.more-pages
+{
+    top: -4px;
+    font-size: 20px;
+    width: 50%;
+}
+.more-pages ul
+{
+    border-radius: 0px;
+    margin-top: 35%;
+    position: absolute;
+    top: 141%;
+    padding: 0;
+}
+.more-pages ul li
+{
+    border-bottom: 1px #e4e7ed solid;
+    text-align: left;
+}
+.more-pages ul li:hover a
+{
+    background: #83a803;
+    color: #fff;
+}
+.more-pages ul li:last-child
+{
+    border:none;
+}
+.more-pages ul li a
+{
+    height: 45px;
+    line-height: 45px;
+}
+.more-pages button
+{
+    background: #0c4107;
+}
+.more-pages button span
+{
+    color: #fff;
+}
+.more-pages button:focus
+{
+    outline: none;
+}
+.side-ad img:hover
+{
+    width: 12%;
+}
 .select-lang
 {
     width: 23%;
@@ -50,15 +112,52 @@
 {
     display: none;
 }
+.side-Ad
+    {
+        display: none;
+    }
 @media (max-width: 1199px)
 {
+    .side-ad
+    {
+        display: none;
+    }
     .select-lang
     {
         right: 110%;
     }
+    .side-Ad
+    {
+        display: none;
+    }
+    .side-AD
+    {
+        margin-bottom: 20px;
+    }
+    .side-AD img
+    {
+        height: 150px;
+        width: 100%;
+    }
+    .side-AD .ad-with-us
+    {
+        color: #fff;
+        position: absolute;
+        /* top: 38%; */
+        z-index: 999999999;
+        margin-top: -140px !important;
+        margin-left: 50px;
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 15px;
+    }
 }
 @media (max-width: 991px)
 {
+    .side-ad
+    {
+        display: none;
+    }
     .top-ad .make-ad
     {
         top: 166px;
@@ -68,8 +167,43 @@
     {
         right: 0%;
     }
+    .side-Ad
+    {
+        display: block;
+    }
 @media (max-width: 767px)
 {
+    .side-Ad
+    {
+        display: block;
+        position: relative;
+    }
+    .side-Ad img
+    {
+        height: 91px;
+        width: 100%;
+    }
+    .side-Ad .ad-with-us
+    {
+        position: absolute;
+        top: 94%;
+        z-index: 99999999999;
+        color: #ffff;
+        left: 2%;
+        text-decoration: underline;
+    }
+    .adNotMobile
+    {
+        display: none;
+    }
+    .side-ad img {
+        position: relative;
+        z-index: 99;
+        top: 192%;
+        width: 100%;
+        height: 11% !important;
+        transition: 0.3s;
+    }
     .select-lang
     {
         right: 2%;
@@ -823,6 +957,10 @@
 }
 .sportsmagazine-modal-close:before, .sportsmagazine-fixture-slider-layer ul:before, .sportsmagazine-featured-slider .slick-arrow-left.slick-arrow:hover:before, .widget_trending_news .nav-tabs li.active a:after, .sportsmagazine-modren-team-one:before, .sportsmagazine-modren-team-two:before{
     border-top-color:#83a803;
+}
+.sportsmagazine-header-two .navbar-nav > li
+{
+    padding: 19px 10px 19px 19px !important;
 }
 .sportsmagazine-fixture-slider-layer ul li{
     color: #fff;
